@@ -1,10 +1,10 @@
 #!/bin/bash 
 
 command='ocamlc -output-complete-obj -o'
-packages='-package threads -linkpkg socket.ml -package evalBytes.ml -linkpkg socket.ml -package ptmap -linkpkg globals.ml -package extlib -linkpkg hlcode.ml -package sedlex -linkpkg json.ml -package sedlex.ppx -linkpkg json.ml -package ppx_tools_versioned -linkpkg _ppx.ml -package xml-light -linkpkg genxml.ml'
-solution="ocamlfind ocamlc -thread $packages -output-complete-obj -o haxe_embeded.c"
+packages=''
+solution="ocamlfind ocamlc"
 extension=.ml
-extensions="$extension .mli"
+extensions="$extension .mli .cma"
 path=$PWD
 export OCAMLFIND_IGNORE_DUPS_IN=/home/jsnadeau/.opam/default/lib/ocaml/compiler-libs
 cd ../haxe
@@ -17,13 +17,18 @@ for ext in $(echo $extensions | tr " " "\n")
     do
     for f in $(find ../haxe -name "*$ext");
         do 
+        if [ $f != ${f%".cma"} ] 
+            then
+            package=$f
+        fi
         cp $f ./
     done
 #  do echo "$f"
 done
-extensions="$extensions .cmi .cmo"
+
 ocamldep options -native -sort -all -modules *.mli *.ml > .depend
 depends=`cat .depend`
+files=''
 # echo $depends
 for f in $(echo $depends | tr " " "\n")
     do
@@ -34,16 +39,56 @@ for f in $(echo $depends | tr " " "\n")
     #     i="$i.c"
     #     cName=$i
     # done
-    s="$solution"
-    if [ "ocamake.ml" != $f ] && [ "tests.ml" != $f ] && [ "test.ml" != $f ]
-        then 
+    s="$files"
+    
+    if [ "globals.ml" = $f ] 
+        then packages="$packages -package ptmap -linkpkg globals.ml" 
+    fi  
+    if [ "png.mli" = $f ] 
+        then packages="$packages  -package extlib -linkpkg hlcode.ml png.ml png.mli" 
+    fi  
+    if [ "json.ml" = $f ] 
+        then packages="$packages -package sedlex -linkpkg json.ml -package sedlex.ppx -linkpkg json.ml" 
+    fi  
+    if [ "_ppx.ml" = $f ] 
+        then packages="$packages -package ppx_tools_versioned -linkpkg _ppx.ml" 
+    fi  
+    if [ "socket.ml" = $f ] 
+        then packages="-thread $packages -package threads -linkpkg socket.ml" 
+    fi  
+    if [ "genxml.ml" = $f ] 
+        then packages="$packages -package xml-light -linkpkg genxml.ml" 
+    fi  
+    if [ "evalStdLib.ml" = $f ] 
+        then packages="$packages -package sha -linkpkg evalStdLib.ml" 
+    fi  
+
+    if [ "ocamake.ml" != $f ] && [ "tests.ml" != $f ] && [ "test.ml" != $f ] && [ "example.ml" != $f ] && [ "main.ml" != $f ] && [ "dump.ml" != $f ] && [ "minizip.ml" != $f ]
+        then
         echo $f
-        s="$s $f"
+        $solution -thread $packages -c $s $f
+        orig=$f
+        mli=${orig%".mli"}
+        f=${f%".ml"}
+        if [ $f != $orig ]
+            then
+            f="$f.cmo"
+            s="$s $f"
+        fi
+        # if [ $mli != $orig ]
+        #     then
+        #     f="$mli.cmi"
+        # fi
+        if [ $orig == "asdgajsdh.ml" ]
+            then 
+            exit
+        fi
     fi
-    solution=$s
+    files="$s"
 done
 # Build
-$solution
+
+echo $solution -I . -thread $packages -output-obj -o haxe_embeded.c $files
 
 # Clean folder
 for ext in $(echo $extensions | tr " " "\n")
