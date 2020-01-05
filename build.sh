@@ -1,0 +1,2 @@
+#!/bin/bash 
+gcc -I/home/jsnadeau/.opam/default/lib/ocaml /home/jsnadeau/haxe/libs/extc/process_stubs.c /home/jsnadeau/haxe/libs/extc/extc_stubs.c -L/home/jsnadeau/.opam/default/lib/ocaml -L/home/jsnadeau/haxe/libs /home/jsnadeau/haxe/libs/ziplib/ziplib.a /home/jsnadeau/haxe/libs/extc/extc.a /home/jsnadeau/haxe/libs/extlib-leftovers/extlib-leftovers.a /home/jsnadeau/haxe/libs/pcre/pcre.a /home/jsnadeau/haxe/libs/objsize/objsize.a /home/jsnadeau/haxe/libs/javalib/javalib.a haxe.bc.c -o haxe -Wall -lcamlrun -lm -ldl -lncurses -lthreads -lpthread -lz -lpcre
