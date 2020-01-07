@@ -10,7 +10,7 @@ afiles=''
 path="$HOME/haxe/libs"
 ofiles="$path/extc/process_stubs.c $path/pcre/pcre_stubs.c $path/extc/extc_stubs.c $path/objsize/c_objsize.c"
 
-cargs='-lcamlrun -lm -ldl -lncurses -lthreads -lpthread -lpcre -lz -lunix -lcamlstr -lsha1'
+cargs='-lcamlrun -lm -ldl -lthreads -lpthread -lunix -lcamlstr -lsha1'
 
 outMain='   
 int main (int argc, char ** argv)
@@ -42,8 +42,12 @@ for f in $(find $HOME/haxe/libs -name "*.a");
     afiles="$afiles $f"
     
 done
+cp /usr/include/pcre.h ./
+cp /usr/include/zlib.h ./
+cp /usr/include/zconf.h ./
+source ../emsdk/emsdk_env.sh
 
-clang $includes main.c $ofiles $afiles $linkPaths -o haxe  $cargs
+emcc $includes main.c $ofiles $afiles $linkPaths -o haxe.js $cargs -s FORCE_FILESYSTEM=1 -s USE_PTHREADS=4 
 echo haxe was built
 
 for f in $(find $HOME/haxe/libs -name "Makefile");
@@ -52,8 +56,13 @@ for f in $(find $HOME/haxe/libs -name "Makefile");
     make clean
 done
 
+cd $cur
+
 for f in $(find . -maxdepth 2 -name "*.o");
     do
     rm $f
     
 done
+
+sed -i -e 's/HAXE_OUTPUT=haxe.bc.c/HAXE_OUTPUT=haxe/g' ./Makefile
+sed -i -e 's/haxe.bc.c/haxe.exe/g' ./Makefile
