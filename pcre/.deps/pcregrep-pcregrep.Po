@@ -1,0 +1,114 @@
+pcregrep-pcregrep.o: pcregrep.c config.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/ctype.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/__config \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/compat/ctype.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/ctype.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/features.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten/bits/alltypes.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/locale.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/locale.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/stdio.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/stdio.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/wasi/api.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/stddef.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/stddef.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/stdint.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/stdint.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten/bits/stdint.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/string.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/compat/string.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/string.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/strings.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/stdlib.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/compat/stdlib.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/stdlib.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/alloca.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/errno.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/errno.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten/bits/errno.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/sys/types.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/endian.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/sys/select.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/compat/sys/stat.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/sys/stat.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten/bits/stat.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/unistd.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten/bits/posix.h \
+  pcre.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/dirent.h
+
+config.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/ctype.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/__config:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/compat/ctype.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/ctype.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/features.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten/bits/alltypes.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/locale.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/locale.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/stdio.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/stdio.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/wasi/api.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/stddef.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/stddef.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/stdint.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/stdint.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten/bits/stdint.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/string.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/compat/string.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/string.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/strings.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/stdlib.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/compat/stdlib.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/stdlib.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/alloca.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/errno.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/errno.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten/bits/errno.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/sys/types.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/endian.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/sys/select.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/compat/sys/stat.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/sys/stat.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten/bits/stat.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/unistd.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten/bits/posix.h:
+
+pcre.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/dirent.h:

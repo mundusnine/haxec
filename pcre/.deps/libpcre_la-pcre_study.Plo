@@ -1,0 +1,85 @@
+libpcre_la-pcre_study.lo: pcre_study.c config.h pcre_internal.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/ctype.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/__config \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/compat/ctype.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/ctype.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/features.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten/bits/alltypes.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/limits.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/limits.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten/bits/limits.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/stddef.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/stddef.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/stdio.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/stdio.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/wasi/api.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/stdint.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/stdint.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten/bits/stdint.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/stdlib.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/compat/stdlib.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/stdlib.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/alloca.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/string.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/compat/string.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/string.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/strings.h \
+  pcre.h ucp.h
+
+config.h:
+
+pcre_internal.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/ctype.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/__config:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/compat/ctype.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/ctype.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/features.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten/bits/alltypes.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/limits.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/limits.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten/bits/limits.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/stddef.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/stddef.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/stdio.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/stdio.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/wasi/api.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/stdint.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/stdint.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten/bits/stdint.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/stdlib.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/compat/stdlib.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/stdlib.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/alloca.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/string.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/compat/string.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/string.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/strings.h:
+
+pcre.h:
+
+ucp.h:

@@ -1,0 +1,316 @@
+libpcrecpp_la-pcre_stringpiece.lo: pcre_stringpiece.cc config.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/iostream \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/__config \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/pthread.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/ios \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/iosfwd \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/wchar.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/compat/wchar.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/wchar.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/features.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten/bits/alltypes.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/__locale \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/string \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/string_view \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/__string \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/algorithm \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/initializer_list \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/cstddef \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/version \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/stddef.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/__nullptr \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/type_traits \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/cstring \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/string.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/compat/string.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/string.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/strings.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/utility \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/__tuple \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/cstdint \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/stdint.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/stdint.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten/bits/stdint.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/__debug \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/memory \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/typeinfo \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/exception \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/cstdlib \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/stdlib.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/compat/stdlib.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/stdlib.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/alloca.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/new \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/limits \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/__undef_macros \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/iterator \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/__functional_base \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/__functional_base_03 \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/tuple \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/stdexcept \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/cassert \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/assert.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/atomic \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/functional \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/__functional_03 \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/bit \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/cstdio \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/stdio.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/stdio.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/wasi/api.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/stddef.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/cwchar \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/cwctype \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/cctype \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/ctype.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/compat/ctype.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/ctype.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/wctype.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/compat/wctype.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/wctype.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/mutex \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/__mutex_base \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/chrono \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/ctime \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/compat/time.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/time.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/ratio \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/climits \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/limits.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/limits.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten/bits/limits.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/system_error \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/__errc \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/cerrno \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/errno.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/errno.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten/bits/errno.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/__threading_support \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/sched.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/locale.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/locale.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/compat/xlocale.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/streambuf \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/istream \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/ostream \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/locale \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/cstdarg \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/compat/stdarg.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/stdarg.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/nl_types.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/__bsd_locale_fallbacks.h \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/bitset \
+  /home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/__bit_reference \
+  pcrecpp_internal.h pcre_stringpiece.h pcre.h
+
+config.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/iostream:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/__config:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/pthread.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/ios:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/iosfwd:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/wchar.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/compat/wchar.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/wchar.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/features.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten/bits/alltypes.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/__locale:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/string:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/string_view:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/__string:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/algorithm:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/initializer_list:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/cstddef:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/version:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/stddef.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/__nullptr:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/type_traits:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/cstring:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/string.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/compat/string.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/string.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/strings.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/utility:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/__tuple:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/cstdint:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/stdint.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/stdint.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten/bits/stdint.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/__debug:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/memory:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/typeinfo:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/exception:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/cstdlib:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/stdlib.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/compat/stdlib.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/stdlib.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/alloca.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/new:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/limits:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/__undef_macros:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/iterator:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/__functional_base:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/__functional_base_03:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/tuple:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/stdexcept:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/cassert:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/assert.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/atomic:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/functional:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/__functional_03:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/bit:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/cstdio:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/stdio.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/stdio.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/wasi/api.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/stddef.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/cwchar:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/cwctype:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/cctype:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/ctype.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/compat/ctype.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/ctype.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/wctype.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/compat/wctype.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/wctype.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/mutex:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/__mutex_base:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/chrono:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/ctime:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/compat/time.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/time.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/ratio:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/climits:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/limits.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/limits.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten/bits/limits.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/system_error:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/__errc:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/cerrno:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/errno.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/errno.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten/bits/errno.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/__threading_support:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/sched.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/locale.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/locale.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/compat/xlocale.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/streambuf:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/istream:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/ostream:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/locale:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/cstdarg:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/compat/stdarg.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/stdarg.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc/nl_types.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/__bsd_locale_fallbacks.h:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/bitset:
+
+/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx/__bit_reference:
+
+pcrecpp_internal.h:
+
+pcre_stringpiece.h:
+
+pcre.h:
