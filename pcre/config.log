@@ -34,6 +34,7 @@ PATH: /home/jsnadeau/emsdk/node/12.9.1_64bit/bin
 PATH: /home/jsnadeau/.wasmer/bin
 PATH: /home/jsnadeau/.wasmer/globals/wapm_packages/.bin
 PATH: /home/jsnadeau/.wasienv/bin
+PATH: /home/jsnadeau/.opam/default/bin
 PATH: /usr/local/bin
 PATH: /usr/bin
 PATH: /bin
@@ -1393,7 +1394,7 @@ configure:14147: result: yes
 configure:14164: checking for bcopy
 configure:14164: /home/jsnadeau/emsdk/upstream/emscripten/emcc -o conftest -g -O2   conftest.c  >&5
 wasm-ld: warning: function signature mismatch: bcopy
->>> defined as () -> i32 in /tmp/emscripten_temp_fGnnaa/conftest_0.o
+>>> defined as () -> i32 in /tmp/emscripten_temp_4M17Z8/conftest_0.o
 >>> defined as (i32, i32, i32) -> void in /home/jsnadeau/.emscripten_cache/wasm-obj/libc.a(bcopy_616e93e0.c.o)
 configure:14164: $? = 0
 configure:14164: result: yes
@@ -1405,7 +1406,7 @@ char memmove ();
 conftest.c:64:6: note: 'memmove' is a builtin with type 'void *(void *, const void *, unsigned long)'
 1 warning generated.
 wasm-ld: warning: function signature mismatch: memmove
->>> defined as () -> i32 in /tmp/emscripten_temp_1LfZHR/conftest_0.o
+>>> defined as () -> i32 in /tmp/emscripten_temp_iWrpaM/conftest_0.o
 >>> defined as (i32, i32, i32) -> i32 in /home/jsnadeau/.emscripten_cache/wasm-obj/libc_rt_wasm.a(emscripten_memmove_3cb8b0e0.c.o)
 configure:14164: $? = 0
 configure:14164: result: yes
@@ -1417,7 +1418,7 @@ char strerror ();
 conftest.c:65:6: note: 'strerror' is a builtin with type 'char *(int)'
 1 warning generated.
 wasm-ld: warning: function signature mismatch: strerror
->>> defined as () -> i32 in /tmp/emscripten_temp_x9iHDi/conftest_0.o
+>>> defined as () -> i32 in /tmp/emscripten_temp_MLp5dD/conftest_0.o
 >>> defined as (i32) -> i32 in /home/jsnadeau/.emscripten_cache/wasm-obj/libc.a(strerror_3a64263d.c.o)
 configure:14164: $? = 0
 configure:14164: result: yes
@@ -1434,7 +1435,7 @@ configure:14178: result: yes
 configure:14188: checking for gzopen in -lz
 configure:14213: /home/jsnadeau/emsdk/upstream/emscripten/emcc -o conftest -g -O2   conftest.c -lz   >&5
 wasm-ld: warning: function signature mismatch: gzopen
->>> defined as () -> i32 in /tmp/emscripten_temp_IM6R5C/conftest_0.o
+>>> defined as () -> i32 in /tmp/emscripten_temp_YFflH7/conftest_0.o
 >>> defined as (i32, i32) -> i32 in /home/jsnadeau/.emscripten_cache/wasm-obj/libz.a(gzlib_08e84ef1.c.o)
 configure:14213: $? = 0
 configure:14222: result: yes
@@ -1586,7 +1587,7 @@ conftest.c:51:13: error: implicit declaration of function 'BZ2_bzopen' is invali
 return (int)BZ2_bzopen("conftest", "rb");
             ^
 1 error generated.
-shared:ERROR: '/home/jsnadeau/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -D__EMSCRIPTEN_major__=1 -D__EMSCRIPTEN_minor__=39 -D__EMSCRIPTEN_tiny__=5 -D_LIBCPP_ABI_VERSION=2 -Dunix -D__unix -D__unix__ -Werror=implicit-function-declaration -Xclang -nostdsysteminc -Xclang -isystem/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx -Xclang -isystem/home/jsnadeau/emsdk/upstream/emscripten/system/lib/libcxxabi/include -Xclang -isystem/home/jsnadeau/emsdk/upstream/emscripten/system/include/compat -Xclang -isystem/home/jsnadeau/emsdk/upstream/emscripten/system/include -Xclang -isystem/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc -Xclang -isystem/home/jsnadeau/emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten -Xclang -isystem/home/jsnadeau/emsdk/upstream/emscripten/system/local/include -Xclang -isystem/home/jsnadeau/.emscripten_cache/wasm-obj/include -gline-tables-only -O2 -DEMSCRIPTEN conftest.c -Xclang -isystem/home/jsnadeau/emsdk/upstream/emscripten/system/include/SDL -c -o /tmp/emscripten_temp_sYnaiZ/conftest_0.o -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr' failed (1)
+shared:ERROR: '/home/jsnadeau/emsdk/upstream/bin/clang -target wasm32-unknown-emscripten -D__EMSCRIPTEN_major__=1 -D__EMSCRIPTEN_minor__=39 -D__EMSCRIPTEN_tiny__=5 -D_LIBCPP_ABI_VERSION=2 -Dunix -D__unix -D__unix__ -Werror=implicit-function-declaration -Xclang -nostdsysteminc -Xclang -isystem/home/jsnadeau/emsdk/upstream/emscripten/system/include/libcxx -Xclang -isystem/home/jsnadeau/emsdk/upstream/emscripten/system/lib/libcxxabi/include -Xclang -isystem/home/jsnadeau/emsdk/upstream/emscripten/system/include/compat -Xclang -isystem/home/jsnadeau/emsdk/upstream/emscripten/system/include -Xclang -isystem/home/jsnadeau/emsdk/upstream/emscripten/system/include/libc -Xclang -isystem/home/jsnadeau/emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten -Xclang -isystem/home/jsnadeau/emsdk/upstream/emscripten/system/local/include -Xclang -isystem/home/jsnadeau/.emscripten_cache/wasm-obj/include -gline-tables-only -O2 -DEMSCRIPTEN conftest.c -Xclang -isystem/home/jsnadeau/emsdk/upstream/emscripten/system/include/SDL -c -o /tmp/emscripten_temp_uEoFR9/conftest_0.o -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr' failed (1)
 configure:14280: $? = 1
 configure: failed program was:
 | /* confdefs.h */
@@ -1674,6 +1675,7 @@ config.status:1245: creating pcre.h
 config.status:1245: creating pcre_stringpiece.h
 config.status:1245: creating pcrecpparg.h
 config.status:1245: creating config.h
+config.status:1426: config.h is unchanged
 config.status:1474: executing depfiles commands
 config.status:1551: cd .       && sed -e '/# am--include-marker/d' Makefile         | make -f - am--depfiles
 make: Nothing to be done for 'am--depfiles'.
